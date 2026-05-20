@@ -1,0 +1,150 @@
+.maincontainer {
+  min-height: 100vh;
+  background: linear-gradient(to right, #f0f2f0, #000c40);
+  /* background: linear-gradient(to right, #ada996, #f2f2f2, #dbdbdb, #eaeaea); */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 5px;
+  /* border: 2px solid red; */
+}
+
+.secondcontainer {
+  display: flex;
+  background: linear-gradient(to right, #d7d2cc, #304352);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+  /* border: 2px solid rgb(55, 255, 0); */
+  border-radius: 5px;
+  text-align: left;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.inputcss {
+  padding: 10px;
+  border-radius: 5px;
+  border-width: 1px;
+  margin: 5px;
+  width: 200px;
+}
+
+.inputcss:focus {
+  outline: none;
+  border: 2px solid #c9a227;
+}
+
+.buttonaddcss {
+  padding: 10px;
+  color: white;
+  background-color: #6394b3;
+  cursor: pointer;
+  border-width: none;
+  border-style: none;
+  border-radius: 5px;
+  margin: 5px;
+  width: 100px;
+  margin-left: 15px;
+  margin-bottom: 10px;
+}
+
+.buttonaddcss:hover {
+  background-color: #c9a227;
+}
+
+.labelcreatecss {
+  font-size: 20px;
+  font-weight: 500;
+}
+.thirdcontainercss {
+  /* border: 2px solid rgb(76, 0, 255); */
+  height: 100%;
+  max-height: 100%;
+  width: 40%;
+  margin: 10px;
+  background-color: transparent;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* list item container */
+.list-item {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin: 5px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 252, 253);
+  list-style: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  /* border: 2px solid red; */
+}
+
+.checkboxcss {
+  margin-right: 10px;
+  cursor: pointer;
+  padding: auto;
+  width: 20px;
+  height: 20px;
+}
+
+.labelcss {
+  cursor: pointer;
+}
+.todo-divconatiner {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid;
+  border-right-width: 0px;
+  border-top-width: 0px;
+  border-bottom-width: 0px;
+  background-color: rgb(193, 203, 234);
+  padding: 8px;
+  height: 15px;
+  align-items: center;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+.todo-divconatiner2 {
+  border-left-color: rgb(92, 92, 227);
+  border-left-width: 7px;
+}
+
+.delete-button {
+  cursor: pointer;
+  background-color: rgb(99, 99, 197);
+  color: white;
+  border-radius: 7px;
+  border-width: none;
+  border-style: none;
+  padding: 7px;
+}
+.delete-button:hover {
+  background-color: rgb(188, 111, 111);
+  color: white;
+}
+
+.checked {
+  text-decoration: line-through;
+}
+
+.delete-conatiner {
+  padding: 8px;
+}
+
+.emtytodomsgcss {
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+.mytodoheadercss {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 15px;
+}
